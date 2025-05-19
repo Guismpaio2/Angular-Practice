@@ -1,28 +1,45 @@
-<h1 align="center">
-  <img src="https://vidafullstack.com.br/wp-content/uploads/2020/07/angular.png" alt="" width="150">
-  <br>
-    Projeto Prático: Portfólio
-  <br>
-  https://troquatte.github.io/curso-angular-lista-de-tarefas/browser/
-</h1>
+<img src="https://angular.io/assets/images/logos/angular/angular.svg" width="100" alt="Angular Logo" />
 
-## :custard: Descrição
+# Projeto Prático: Portfólio com Angular
 
-Use este código para fazer consultas caso tenha dúvidas no curso.
+💼 Projeto de portfólio pessoal desenvolvido com Angular como parte de estudos para consolidar conhecimentos sobre componentização, roteamento e deploy no GitHub Pages.
 
-## :custard: Acesse o GhPages
-
-<strong>Link:</strong> https://troquatte.github.io/curso-angular-lista-de-tarefas/browser/
-
-## :custard: Aprenda a subir o seu código no ghPages
-
-<strong>Adicione ao seu projeto:</strong> ng add angular-cli-ghpages@latest
-<br>
-
-<strong>Faça o deploy:</strong> ng deploy --base-href https://SEU_PERFIL_GITHUB.github.io/SEU_REPO_GITHUB/browser/
-
-<strong>Exp.:</strong> ng deploy --base-href https://troquatte.github.io/curso-angular-lista-de-tarefas/browser/
+🔗 Acesse o projeto online:  
+https://Guismpaio2.github.io/Angular-Practice
 
 ---
 
-Com ♥ Dener Troquatte :wave: [Linkedin](https://www.linkedin.com/in/dener-s%C3%A3o-pedro-troquatte-ababa079/) | [Blog](https://vidafullstack.com.br/)
+## 📄 Descrição
+
+Este projeto foi desenvolvido para apresentar habilidades, projetos e informações pessoais utilizando boas práticas de Angular.
+
+---
+
+## 🚀 Acesse no GitHub Pages
+
+Link:  
+https://Guismpaio2.github.io/Angular-Practice
+
+---
+
+## 🚀 Como publicar no GitHub Pages
+
+Adicione ao projeto:
+
+```bash
+ng add angular-cli-ghpages@latest
+```
+
+Faça o deploy:
+
+```bash
+ng deploy --base-href https://Guismpaio2.github.io/Angular-Practice
+```
+
+---
+
+## 📂 Estrutura do Projeto
+
+- `src/app/components/`: Componentes reutilizáveis
+- `src/app/pages/`: Páginas da aplicação
+- `src/assets/`: Imagens e ícones
