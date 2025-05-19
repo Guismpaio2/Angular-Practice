@@ -30,7 +30,7 @@ export class ProjectsComponent {
       with: '100px',
       height: '51px',
       description:
-        '<p>Aqui você verá mais sobre meu projeto de Portfólio Online! Utilizando HTML e CSS!</p>',
+        '<p class="description-test">Aqui você verá mais sobre meu projeto de Portfólio Online! Utilizando HTML e CSS!</p>',
       links: [
         {
           name: 'Conheça mais!',
@@ -45,7 +45,7 @@ export class ProjectsComponent {
       with: '100px',
       height: '51px',
       description:
-        '<p>Aqui você verá mais sobre meu estudo de TypeScript! Criei um portfólio funcional e também uma lista de tarefas!</p>',
+        '<p class="description-test">Aqui você verá mais sobre meu estudo de TypeScript! Criei um portfólio funcional e também uma lista de tarefas!</p>',
       links: [
         {
           name: 'Conheça mais!',

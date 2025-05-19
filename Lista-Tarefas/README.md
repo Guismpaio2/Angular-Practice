@@ -1,8 +1,8 @@
 <img src="https://angular.io/assets/images/logos/angular/angular.svg" width="100" alt="Angular Logo" />
 
-# Projeto Prático: Portfólio com Angular
+# Projeto Prático: Lista de Tarefas com Angular
 
-💼 Projeto de portfólio pessoal desenvolvido com Angular como parte de estudos para consolidar conhecimentos sobre componentização, roteamento e deploy no GitHub Pages.
+✅ Aplicação simples de gerenciamento de tarefas desenvolvida com Angular, ideal para praticar conceitos como data binding, diretivas, eventos e localStorage.
 
 🔗 Acesse o projeto online:  
 https://Guismpaio2.github.io/Angular-Practice
@@ -11,7 +11,7 @@ https://Guismpaio2.github.io/Angular-Practice
 
 ## 📄 Descrição
 
-Este projeto foi desenvolvido para apresentar habilidades, projetos e informações pessoais utilizando boas práticas de Angular.
+Este projeto permite adicionar, remover e marcar tarefas como concluídas. Utiliza `localStorage` para persistência dos dados entre sessões.
 
 ---
 
@@ -33,13 +33,13 @@ ng add angular-cli-ghpages@latest
 Faça o deploy:
 
 ```bash
-ng deploy --base-href https://Guismpaio2.github.io/Angular-Practice
+ng deploy --base-href https://SEU_USUARIO.github.io/NOME_REPOSITORIO/browser/
 ```
 
 ---
 
 ## 📂 Estrutura do Projeto
 
-- `src/app/components/`: Componentes reutilizáveis
-- `src/app/pages/`: Páginas da aplicação
-- `src/assets/`: Imagens e ícones
+- `src/app/components/todo-list`: Componente principal da lista de tarefas
+- `src/app/models`: Modelos TypeScript
+- `src/app/services`: Serviços para lógica da aplicação
